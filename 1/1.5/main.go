@@ -26,10 +26,10 @@ import (
 
 //!+main
 
-var palette = []color.Color{color.White, color.Black}
+var palette = []color.Color{color.RGBA{0x00, 0xFF, 0x00, 0xFF}, color.Black}
 
 const (
-	whiteIndex = 0 // first color in palette
+	greenIndex = 0 // first color in palette
 	blackIndex = 1 // next color in palette
 )
 
